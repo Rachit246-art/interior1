@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curated Spatial Typologies | Amanthran Luxury Interior Architecture</title>
+    <meta name="description" content="Explore our specialized spatial curation across residential typologies — from grand living salons and master suites to private theatres and subterranean wine cellars.">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sliding Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="marquee-track">
+            <span>&#10024; Pan-India Luxury Interior Turnkey Execution &nbsp;&nbsp;|&nbsp;&nbsp; &#127963; Bespoke Architectural Curation &nbsp;&nbsp;|&nbsp;&nbsp; &#9733; Rare Italian Marbles &amp; Smoked Oak &nbsp;&nbsp;|&nbsp;&nbsp; &#127807; Sustainable Biophilic Luxury &nbsp;&nbsp;|&nbsp;&nbsp; &#128241; Schedule Private Design Consultation &nbsp;&nbsp;|&nbsp;&nbsp; &#127775; Award-Winning Residential Studios</span>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/Logo.png" alt="Elysian - Luxury Interior Architecture" class="nav-logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="spaces.html" class="active">Spaces</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">Atelier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary nav-contact-btn">Book Consultation</a>
+                <button class="icon-btn hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero Banner -->
+    <header class="page-hero">
+        <div class="page-hero-glow" aria-hidden="true"></div>
+        <div class="page-hero-inner">
+            <div class="page-breadcrumb">
+                <a href="index.html">Home</a>
+                <span>&bull;</span>
+                <span>Spatial Typologies</span>
+            </div>
+            <h1 class="page-title">Curated Spatial Dimensions &amp;<br><em>Room Typologies</em></h1>
+            <p class="page-subtitle">From soaring double-height living salons and restorative master suites to climate-calibrated wine vaults and acoustic cinema lounges &mdash; every space possesses its own soul and architectural discipline.</p>
+            <div class="hero-actions">
+                <a href="#typologies" class="btn btn-hero-gold">Explore 12 Space Typologies &#8595;</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Interactive Spaces Typologies Showcase -->
+    <main class="inner-section" id="typologies">
+        <div class="inner-container">
+            
+            <!-- Filter Bar for Spaces -->
+            <div class="filter-bar-wrap">
+                <button class="filter-pill active" data-filter="all">All Room Typologies</button>
+                <button class="filter-pill" data-filter="living">Living &amp; Lounges</button>
+                <button class="filter-pill" data-filter="private">Private Suites &amp; Spas</button>
+                <button class="filter-pill" data-filter="culinary">Culinary &amp; Dining</button>
+                <button class="filter-pill" data-filter="leisure">Leisure &amp; Retreats</button>
+            </div>
+
+            <!-- Spatial Typology Cards Grid -->
+            <div class="projects-grid">
+                
+                <!-- Space 1: Living Salons -->
+                <article class="project-card reveal" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/living_lounge.png" alt="Grand Living Salons">
+                        <span class="project-badge">Living Salons</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Social Choreography</span>
+                        <h3>Grand Living Salons &amp; Great Rooms</h3>
+                        <p>Expansive double-height volumes framed in fluted smoked European oak, full-height bookmatched marble surfaces, and integrated architectural bronze lighting coves.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>1,200 &ndash; 3,500 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Acoustic &amp; Volumetric</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 2: Master Bedroom Suites -->
+                <article class="project-card reveal reveal-delay-1" data-category="private">
+                    <div class="project-media">
+                        <img src="assets/Products/bedroom_suite.png" alt="Master Bedroom Suites">
+                        <span class="project-badge">Master Suites</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Private Sanctuary</span>
+                        <h3>Restorative Master Suites</h3>
+                        <p>Calm, sensory retreats incorporating upholstered acoustic linen wall architecture, concealed morning bars, motorized blackout shading, and circadian lighting.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>800 &ndash; 1,800 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Circadian Sleep Rhythm</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 3: Gourmet Kitchen Ateliers -->
+                <article class="project-card reveal reveal-delay-2" data-category="culinary">
+                    <div class="project-media">
+                        <img src="assets/Products/kitchen_marble.png" alt="Gourmet Kitchen Ateliers">
+                        <span class="project-badge">Gourmet Kitchens</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Culinary Architecture</span>
+                        <h3>Gourmet Kitchen Ateliers</h3>
+                        <p>Monolithic 4-meter marble waterfall islands paired with concealed pocket back-pantries, integrated Miele/Gaggenau suites, and flush ceiling extraction.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>600 &ndash; 1,200 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Dual Show &amp; Heavy Prep</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 4: Formal & Penthouse Dining Salons -->
+                <article class="project-card reveal" data-category="culinary">
+                    <div class="project-media">
+                        <img src="assets/Products/dining_penthouse.png" alt="Penthouse Dining Salons">
+                        <span class="project-badge">Formal Dining</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Ceremonial Gatherings</span>
+                        <h3>Penthouse Dining Salons</h3>
+                        <p>Seating 12 to 16 guests under custom brass chandeliers, backlit onyx consoles, floor-to-ceiling panoramic glass, and sommelier presentation niches.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>700 &ndash; 1,500 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Sightlines &amp; Ambience</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 5: Sunken Velvet Lounges -->
+                <article class="project-card reveal reveal-delay-1" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/lounge_sunken.png" alt="Sunken Velvet Lounges">
+                        <span class="project-badge">Sunken Lounges</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Intimate Conversation</span>
+                        <h3>Sunken Velvet Lounges &amp; Bars</h3>
+                        <p>Intimate subterranean seating pockets with custom curved emerald velvet banquettes, fluted walnut borders, and brass-trimmed cocktail stations.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>600 &ndash; 1,400 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Volumetric Elevation Shift</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 6: Spa Bathrooms & Wellness Suites -->
+                <article class="project-card reveal reveal-delay-2" data-category="private">
+                    <div class="project-media">
+                        <img src="assets/Products/spa_bathroom.png" alt="Spa Bathrooms &amp; Wellness">
+                        <span class="project-badge">Wellness Spas</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Restorative Hydrotherapy</span>
+                        <h3>Spa Bathrooms &amp; Wellness Suites</h3>
+                        <p>Monolithic hand-carved stone soaking tubs positioned under operable rain skylights, paired with bookmatched basalt, aroma cedar saunas, and steam showers.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>400 &ndash; 900 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Hydrotherapy &amp; Steam</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 7: Private Libraries & Executive Studies -->
+                <article class="project-card reveal" data-category="leisure">
+                    <div class="project-media">
+                        <img src="assets/Products/study_library.png" alt="Private Heritage Libraries">
+                        <span class="project-badge">Private Libraries</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Intellectual Solitude</span>
+                        <h3>Heritage Libraries &amp; Studies</h3>
+                        <p>Floor-to-ceiling hand-finished English oak millwork, rolling brass ladders, acoustic leather-lined portals, and concealed private executive bars.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>500 &ndash; 1,000 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Acoustic Isolation &amp; Millwork</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 8: Verandas & Garden Pavilions -->
+                <article class="project-card reveal reveal-delay-1" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/terrace_veranda.png" alt="Verandas &amp; Garden Pavilions">
+                        <span class="project-badge">Sky Terraces</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Biophilic Living</span>
+                        <h3>Verandas &amp; Sky Terraces</h3>
+                        <p>Seamlessly dissolving boundaries between interior air-conditioned salons and lush exterior gardens with reclaimed Burmese teak and monolithic stone waterwalls.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>800 &ndash; 2,500 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Climate-Resilient Luxury</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 9: Private Acoustic Cinema Lounges -->
+                <article class="project-card reveal reveal-delay-2" data-category="leisure">
+                    <div class="project-media">
+                        <img src="assets/Products/acoustic_cinema.png" alt="Acoustic Cinema Lounges">
+                        <span class="project-badge">Acoustic Cinemas</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Cinematic Audio-Visual</span>
+                        <h3>Acoustic Cinema Lounges</h3>
+                        <p>Dolby Atmos calibrated acoustically decoupled walls wrapped in micro-perforated Italian suede with motorized custom velvet chaise seating.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>600 &ndash; 1,200 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>NC-20 Acoustic Calibration</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 10: Haute Couture Dressing Suites -->
+                <article class="project-card reveal" data-category="private">
+                    <div class="project-media">
+                        <img src="assets/Products/walkin_closet.png" alt="Haute Couture Dressing Suites">
+                        <span class="project-badge">Dressing Suites</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Wardrobe Architecture</span>
+                        <h3>Haute Couture Dressing Suites</h3>
+                        <p>Climate-controlled wardrobe architecture with leather-lined watch winders, illuminated jewelry glass vitrines, and panoramic bronze tri-fold dressing mirrors.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>500 &ndash; 1,100 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Climate &amp; Dust Regulated</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 11: Subterranean Wine Vaults -->
+                <article class="project-card reveal reveal-delay-1" data-category="leisure">
+                    <div class="project-media">
+                        <img src="assets/Products/wine_cellar.png" alt="Subterranean Wine Vaults">
+                        <span class="project-badge">Sommelier Vaults</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Oenological Preservation</span>
+                        <h3>Subterranean Wine Vaults</h3>
+                        <p>Dual-zone refrigeration and humidity systems encased in volcanic basalt stone, housing over 1,500 grand cru vintages on custom acrylic cradles.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>350 &ndash; 800 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>14°C &amp; 70% RH Precision</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Space 12: Travertine Dining Halls -->
+                <article class="project-card reveal reveal-delay-2" data-category="culinary">
+                    <div class="project-media">
+                        <img src="assets/Products/dining_stone.png" alt="Travertine Dining Halls">
+                        <span class="project-badge">Dining Halls</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Classical Gravitas</span>
+                        <h3>Travertine Dining Halls</h3>
+                        <p>Sculptural Roman travertine dining architecture with carved stone columns, acoustic baffle plasterwork, and bespoke unlacquered brass pendant fixtures.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>600 &ndash; 1,200 sq.ft</strong> Typical Scale</div>
+                            <div class="spec-item"><strong>Monolithic Stone Craft</strong> Design Priority</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Commission This Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Spatial Harmonization Banner -->
+    <section class="newsletter-section" style="border-top:1px solid var(--border-gold);">
+        <div class="nl-inner">
+            <div class="nl-text">
+                <h3>Curate Your Residence by Spatial Typology</h3>
+                <p>Schedule a private dialogue with our partners to audit your floorplans and map bespoke spatial experiences.</p>
+            </div>
+            <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+                <a href="contact.html" class="btn btn-hero-gold">Request Consultation &#8594;</a>
+                <a href="portfolio.html" class="btn btn-hero-glass">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="assets/Logo.png" alt="Elysian - Luxury Interior Architecture" class="footer-logo-img">
+                </a>
+                <p>Designing residential sanctuaries that celebrate timeless materiality, balanced proportion, and soulful living.</p>
+                <div class="footer-socials">
+                    <a href="#" class="soc" aria-label="Instagram">IG</a>
+                    <a href="#" class="soc" aria-label="Facebook">FB</a>
+                    <a href="#" class="soc" aria-label="Pinterest">PT</a>
+                    <a href="#" class="soc" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Atelier</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="spaces.html">Curated Spaces</a></li>
+                    <li><a href="portfolio.html">Signature Works</a></li>
+                    <li><a href="services.html">The Process</a></li>
+                    <li><a href="about.html">Our Atelier</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Practice</h4>
+                <ul>
+                    <li><a href="about.html">Our Philosophy</a></li>
+                    <li><a href="services.html#materials">Noble Materials</a></li>
+                    <li><a href="services.html#phases">Turnkey Execution</a></li>
+                    <li><a href="about.html#guild">Master Artisans</a></li>
+                    <li><a href="contact.html">Private Consultation</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Contact Atelier</h4>
+                <ul style="list-style:none;display:flex;flex-direction:column;gap:.7rem;">
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">+91 98765 43210</li>
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">atelier@amanthran.com</li>
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">Worli, Mumbai &bull; New Delhi &bull; Bengaluru</li>
+                </ul>
+                <div class="footer-tagline-box"><p>Spaces<br>Crafted To<br>Inspire For<br>Generations</p></div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amanthran Luxury Interior Architecture. All rights reserved.</p>
+            <p>Crafted with Passion &amp; Architectural Precision</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

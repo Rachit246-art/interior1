@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curated Portfolio | Amanthran Luxury Interior Architecture</title>
+    <meta name="description" content="Explore our bespoke portfolio of luxury residences, penthouses, and private estates crafted across India with rare noble materials and architectural symmetry.">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sliding Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="marquee-track">
+            <span>&#10024; Pan-India Luxury Interior Turnkey Execution &nbsp;&nbsp;|&nbsp;&nbsp; &#127963; Bespoke Architectural Curation &nbsp;&nbsp;|&nbsp;&nbsp; &#9733; Rare Italian Marbles &amp; Smoked Oak &nbsp;&nbsp;|&nbsp;&nbsp; &#127807; Sustainable Biophilic Luxury &nbsp;&nbsp;|&nbsp;&nbsp; &#128241; Schedule Private Design Consultation &nbsp;&nbsp;|&nbsp;&nbsp; &#127775; Award-Winning Residential Studios</span>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/Logo.png" alt="Elysian - Luxury Interior Architecture" class="nav-logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="spaces.html">Spaces</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">Atelier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary nav-contact-btn">Book Consultation</a>
+                <button class="icon-btn hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero Banner -->
+    <header class="page-hero">
+        <div class="page-hero-glow" aria-hidden="true"></div>
+        <div class="page-hero-inner">
+            <div class="page-breadcrumb">
+                <a href="index.html">Home</a>
+                <span>&bull;</span>
+                <span>Our Works</span>
+            </div>
+            <h1 class="page-title">Curated Sanctuaries &amp;<br><em>Architectural Portfolio</em></h1>
+            <p class="page-subtitle">A monograph of distinctive residential commissions — uniting monolithic stone, artisanal millwork, and balanced illumination for visionary homeowners.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-hero-gold">Explore 12 Signature Works &#8595;</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Gallery Section with Interactive Filter Pills -->
+    <main class="inner-section" id="projects">
+        <div class="inner-container">
+            
+            <!-- Filter Bar -->
+            <div class="filter-bar-wrap">
+                <button class="filter-pill active" data-filter="all">All Residences (12)</button>
+                <button class="filter-pill" data-filter="living">Living &amp; Salons</button>
+                <button class="filter-pill" data-filter="suites">Suites &amp; Baths</button>
+                <button class="filter-pill" data-filter="dining">Kitchen &amp; Dining</button>
+                <button class="filter-pill" data-filter="specialty">Private Retreats</button>
+            </div>
+
+            <!-- Detailed 12 Projects Grid -->
+            <div class="projects-grid">
+                
+                <!-- Project 1: The Imperial Salon -->
+                <article class="project-card reveal" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/living_lounge.png" alt="The Imperial Salon - Worli Penthouse">
+                        <span class="project-badge">Living Salon</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Worli, Mumbai &bull; High-Rise</span>
+                        <h3>The Imperial Salon</h3>
+                        <p>A double-height living salon framed in fluted smoked European oak, book-matched Italian Calacatta marble, and custom bronze lighting.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>4,800 sq.ft</strong> Residence Area</div>
+                            <div class="spec-item"><strong>Statuario &amp; Oak</strong> Primary Noble Materials</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: The Serena Master Suite -->
+                <article class="project-card reveal reveal-delay-1" data-category="suites">
+                    <div class="project-media">
+                        <img src="assets/Products/bedroom_suite.png" alt="The Serena Master Suite - Alibaug Villa">
+                        <span class="project-badge">Master Suite</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Alibaug &bull; Coastal Villa</span>
+                        <h3>The Serena Master Suite</h3>
+                        <p>Sensory sanctuary with upholstered acoustic linen headwalls, satin brass trims, and an integrated private balcony lounge.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>1,250 sq.ft</strong> Suite Footprint</div>
+                            <div class="spec-item"><strong>Raw Silk &amp; Brass</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Calacatta Kitchen Atelier -->
+                <article class="project-card reveal reveal-delay-2" data-category="dining">
+                    <div class="project-media">
+                        <img src="assets/Products/kitchen_marble.png" alt="Calacatta Culinary Atelier - Lutyens Delhi">
+                        <span class="project-badge">Gourmet Kitchen</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Lutyens Delhi &bull; Private Estate</span>
+                        <h3>Calacatta Kitchen Atelier</h3>
+                        <p>Monolithic 4.2-meter waterfall island in Italian Calacatta marble with concealed pocket pantry and matte carbon cabinetry.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>950 sq.ft</strong> Culinary Wing</div>
+                            <div class="spec-item"><strong>Calacatta &amp; Walnut</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Travertine Dining Hall -->
+                <article class="project-card reveal" data-category="dining">
+                    <div class="project-media">
+                        <img src="assets/Products/dining_stone.png" alt="Travertine Dining Hall - Indiranagar">
+                        <span class="project-badge">Formal Dining</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Indiranagar, Bengaluru &bull; Residence</span>
+                        <h3>Travertine Dining Hall</h3>
+                        <p>Custom 12-seater honed Roman travertine dining table complemented by sculptural brass chandelier and textured limestone walls.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>820 sq.ft</strong> Dining Pavilion</div>
+                            <div class="spec-item"><strong>Travertine &amp; Linen</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5: Sunken Velvet Lounge -->
+                <article class="project-card reveal reveal-delay-1" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/lounge_sunken.png" alt="Sunken Velvet Lounge - Jubilee Hills">
+                        <span class="project-badge">Sunken Lounge</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Jubilee Hills, Hyderabad &bull; Mansion</span>
+                        <h3>Sunken Velvet Lounge</h3>
+                        <p>Subterranean gathering lounge with custom curved emerald velvet seating, fluted American walnut, and soft perimeter lighting.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>1,100 sq.ft</strong> Lounge Space</div>
+                            <div class="spec-item"><strong>Velvet &amp; Walnut</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6: Skyline Horizon Dining -->
+                <article class="project-card reveal reveal-delay-2" data-category="dining">
+                    <div class="project-media">
+                        <img src="assets/Products/dining_penthouse.png" alt="Skyline Horizon Dining - Bandra">
+                        <span class="project-badge">Penthouse Dining</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Bandra Bandstand, Mumbai &bull; Penthouse</span>
+                        <h3>Skyline Horizon Dining</h3>
+                        <p>Sea-facing dining salon enclosed in floor-to-ceiling acoustic glass with custom illuminated onyx console and smoked crystal elements.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>1,400 sq.ft</strong> Horizon Suite</div>
+                            <div class="spec-item"><strong>Backlit Onyx &amp; Bronze</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 7: Veranda Garden Pavilion -->
+                <article class="project-card reveal" data-category="living">
+                    <div class="project-media">
+                        <img src="assets/Products/terrace_veranda.png" alt="Veranda Garden Pavilion - Goa">
+                        <span class="project-badge">Indoor-Outdoor</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Assagao, Goa &bull; Heritage Estate</span>
+                        <h3>Veranda Garden Pavilion</h3>
+                        <p>Seamlessly blending indoor climate-controlled lounge with tropical gardens using natural Burmese teak and monolithic granite waterwalls.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>2,200 sq.ft</strong> Veranda Wing</div>
+                            <div class="spec-item"><strong>Burmese Teak &amp; Granite</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 8: Nordic Wellness Spa -->
+                <article class="project-card reveal reveal-delay-1" data-category="suites">
+                    <div class="project-media">
+                        <img src="assets/Products/spa_bathroom.png" alt="Nordic Wellness Spa - Pune">
+                        <span class="project-badge">Spa Bathroom</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Koregaon Park, Pune &bull; Penthouse</span>
+                        <h3>Nordic Wellness Spa</h3>
+                        <p>Monolithic stone soaking tub positioned under an operable rain skylight, surrounded by book-matched honed basalt and aromatherapy cedar sauna.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>650 sq.ft</strong> Wellness Suite</div>
+                            <div class="spec-item"><strong>Honed Basalt &amp; Cedar</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 9: Curated Heritage Library -->
+                <article class="project-card reveal reveal-delay-2" data-category="specialty">
+                    <div class="project-media">
+                        <img src="assets/Products/study_library.png" alt="Curated Heritage Library - Civil Lines">
+                        <span class="project-badge">Study &amp; Library</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Civil Lines, Delhi &bull; Haveli</span>
+                        <h3>Curated Heritage Library</h3>
+                        <p>Floor-to-ceiling hand-carved oak bookshelves with antique brass rolling ladder, cognac chesterfield leather seating, and concealed dry bar.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>780 sq.ft</strong> Library Retreat</div>
+                            <div class="spec-item"><strong>English Oak &amp; Leather</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 10: Private Acoustic Cinema -->
+                <article class="project-card reveal" data-category="specialty">
+                    <div class="project-media">
+                        <img src="assets/Products/acoustic_cinema.png" alt="Private Acoustic Screening Theatre">
+                        <span class="project-badge">Private Cinema</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Banjara Hills, Hyderabad &bull; Estate</span>
+                        <h3>Acoustic Cinema Lounge</h3>
+                        <p>Dolby Atmos certified private theatre with micro-perforated acoustic velvet wall architecture and motorized reclining chaise loungers.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>850 sq.ft</strong> Screening Salon</div>
+                            <div class="spec-item"><strong>Acoustic Suede &amp; Walnut</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 11: Haute Couture Walk-In Closet -->
+                <article class="project-card reveal reveal-delay-1" data-category="suites">
+                    <div class="project-media">
+                        <img src="assets/Products/walkin_closet.png" alt="Haute Couture Dressing Suite">
+                        <span class="project-badge">Dressing Suite</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Malabar Hill, Mumbai &bull; Residence</span>
+                        <h3>Haute Couture Dressing Suite</h3>
+                        <p>Temperature-controlled wardrobe atelier with leather-lined watch winders, integrated jewelry showcases, and panoramic bronze tri-fold vanity.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>720 sq.ft</strong> Dressing Suite</div>
+                            <div class="spec-item"><strong>Smoked Glass &amp; Brass</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 12: Subterranean Sommelier Vault -->
+                <article class="project-card reveal reveal-delay-2" data-category="specialty">
+                    <div class="project-media">
+                        <img src="assets/Products/wine_cellar.png" alt="Subterranean Sommelier Wine Vault">
+                        <span class="project-badge">Sommelier Cellar</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-location">Whitefield, Bengaluru &bull; Villa</span>
+                        <h3>Subterranean Wine Vault</h3>
+                        <p>Climate and humidity regulated cellar housing 1,800 vintages with volcanic stone tasting console and custom acrylic cradle racks.</p>
+                        <div class="project-specs">
+                            <div class="spec-item"><strong>550 sq.ft</strong> Cellar Vault</div>
+                            <div class="spec-item"><strong>Basalt &amp; Smoked Acrylic</strong> Material Palette</div>
+                        </div>
+                        <div class="project-cta">
+                            <a href="contact.html" class="project-link">Inquire for Similar Space &#8594;</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Material Palette Spotlight -->
+    <section class="inner-section materials-section">
+        <div class="inner-container">
+            <div style="text-align:center;max-width:760px;margin:0 auto;">
+                <span class="process-pill">&#10022; Noble Sourcing &#10022;</span>
+                <p class="sec-label" style="margin-top:0.8rem;">Direct Quarry Mastery</p>
+                <h2 style="font-family:var(--font-serif);font-size:clamp(2.2rem,3.8vw,3.2rem);">The Noble Material Palette</h2>
+                <p style="color:var(--text-muted);font-size:0.95rem;line-height:1.7;">Every space we design draws distinction from certified natural textures, imported without middlemen directly from heritage Italian and European quarries.</p>
+            </div>
+
+            <div class="materials-grid">
+                <div class="material-card reveal">
+                    <span class="mat-icon">&#127978;</span>
+                    <h4>Calacatta Borghini</h4>
+                    <p>Rare Tuscan marble with golden-grey veining, hand-selected at Carrara quarries.</p>
+                </div>
+                <div class="material-card reveal reveal-delay-1">
+                    <span class="mat-icon">&#127794;</span>
+                    <h4>Smoked French Oak</h4>
+                    <p>Thermally treated European oak with deep chocolate grain and organic tactility.</p>
+                </div>
+                <div class="material-card reveal reveal-delay-2">
+                    <span class="mat-icon">&#10024;</span>
+                    <h4>Unlacquered Satin Brass</h4>
+                    <p>Living metallic surfaces that develop a bespoke, graceful patina with time.</p>
+                </div>
+                <div class="material-card reveal reveal-delay-3">
+                    <span class="mat-icon">&#127807;</span>
+                    <h4>Honed Roman Travertine</h4>
+                    <p>Earthy limestone with open porous depth, evoking classical architectural gravity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commission Callout Banner -->
+    <section class="newsletter-section" style="border-top:1px solid var(--border-gold);">
+        <div class="nl-inner">
+            <div class="nl-text">
+                <h3>Commission a Bespoke Architectural Space</h3>
+                <p>Begin a private dialogue with our principal design studio to transform your residence into an enduring sanctuary.</p>
+            </div>
+            <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+                <a href="contact.html" class="btn btn-hero-gold">Request Consultation &#8594;</a>
+                <a href="services.html" class="btn btn-hero-glass">Explore Turnkey Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="assets/Logo.png" alt="Elysian - Luxury Interior Architecture" class="footer-logo-img">
+                </a>
+                <p>Designing residential sanctuaries that celebrate timeless materiality, balanced proportion, and soulful living.</p>
+                <div class="footer-socials">
+                    <a href="#" class="soc" aria-label="Instagram">IG</a>
+                    <a href="#" class="soc" aria-label="Facebook">FB</a>
+                    <a href="#" class="soc" aria-label="Pinterest">PT</a>
+                    <a href="#" class="soc" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Atelier</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="spaces.html">Curated Spaces</a></li>
+                    <li><a href="portfolio.html">Signature Works</a></li>
+                    <li><a href="services.html">The Process</a></li>
+                    <li><a href="about.html">Our Atelier</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Practice</h4>
+                <ul>
+                    <li><a href="about.html">Our Philosophy</a></li>
+                    <li><a href="services.html#materials">Noble Materials</a></li>
+                    <li><a href="services.html#phases">Turnkey Execution</a></li>
+                    <li><a href="about.html#guild">Master Artisans</a></li>
+                    <li><a href="contact.html">Private Consultation</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Contact Atelier</h4>
+                <ul style="list-style:none;display:flex;flex-direction:column;gap:.7rem;">
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">+91 98765 43210</li>
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">atelier@amanthran.com</li>
+                    <li style="font-size:.88rem;color:rgba(255,255,255,.7);">Worli, Mumbai &bull; New Delhi &bull; Bengaluru</li>
+                </ul>
+                <div class="footer-tagline-box"><p>Spaces<br>Crafted To<br>Inspire For<br>Generations</p></div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amanthran Luxury Interior Architecture. All rights reserved.</p>
+            <p>Crafted with Passion &amp; Architectural Precision</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
